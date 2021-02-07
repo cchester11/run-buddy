@@ -191,8 +191,8 @@ section {
     flex-wrap: wrap;
     /* first number (2) represents flex-grow which determines how much space the 
     child will take within the parent */
-    /* 70% represents flex-shrink which will tell the child how much space to take up
-    if the screen shrinks */
+    /* 70% represents flex-basis which will tell the child how much space to take up
+    on a given screen */
 }
 
 .step-text {
@@ -242,44 +242,47 @@ section {
     display: flex;
     }
 
+    /* MEET THE TRAINERS START */
 .trainers {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     }
-
+  
 .trainer {
-    background: #024e76;
-    color:#fce138;
+    margin: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
     flex: 1;
+    background: #024e76;
+    color: #fce138;
     }
-
+  
 .trainer img {
-    width: 35%;
+    width: 100%;
     }
-
+  
 .trainer-bio {
     padding: 25px;
     line-height: 1.3;
     }
-
+  
 .trainer-bio h3 {
     font-size: 28px;
     }
-
+  
 .trainer-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
     }
-
-.trainer-bio p {
+  
+  .trainer-bio p {
     font-size: 17px;
-    }
+}
+  /* TRAINER STYLES END */
 
 .contact {
     background: #024e76;
